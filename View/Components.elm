@@ -3,7 +3,6 @@ module View.Components exposing (..)
 import Html.Styled exposing (..)
 import Html.Styled.Attributes exposing (..)
 import Css exposing (..)
-import Date.Format exposing (format)
 import Types exposing (Project)
 
 
@@ -17,6 +16,5 @@ project proj =
     div []
         [ h1 [ css [ padding (px 20) ] ] [ text proj.title ]
         , text proj.description
-        , br [] []
-        , text <| format "%Y" proj.startDate
+        , proj.technologies |> List.map text |> span []
         ]

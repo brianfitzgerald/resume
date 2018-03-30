@@ -3,7 +3,7 @@ module View.App exposing (app)
 import Html.Styled exposing (..)
 import Html.Styled.Attributes exposing (..)
 import View.Components as Components
-import Types exposing (mockProject)
+import Mocks exposing (mockProjects)
 
 
 app : String -> Html msg
@@ -12,5 +12,7 @@ app model =
         [ Components.title "About Me"
         , Components.title "My IQ"
         , Components.title "My High Scores"
-        , Components.project mockProject
+        , mockProjects
+            |> List.map Components.project
+            |> div []
         ]
