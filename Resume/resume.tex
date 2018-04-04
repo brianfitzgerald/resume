@@ -84,7 +84,7 @@
 	
 	\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
 			\noindent \textbf{#1} \hfill      % Jobname
-			\colorbox{Black}{\color{White}#2} \par  % Duration
+			\colorbox{White}{\color{Black}#2} \par  % Duration
 			\noindent \textit{#3} \par              % Company
 			\noindent\hangindent=2em\hangafter=0 \small #4 % Description
 			\normalsize \par}
@@ -143,7 +143,7 @@
 	\sepspace
 	
 	\WorkEntry{Software Developer}{Feb 2014 - Sep 2015}{WireCloud, LLC}{
-		\begin{}
+		\begin{itemize}
 			\item Developed the frontend and backend systems for Gofer, a local food delivery service. Built a system for managing a stream of orders, and assigning them to drivers, as well as a customer-facing order tracking system. Also developed a companion mobile web application for drivers.
 			\item Developed an automated cryptocurrency analytics and trading platform.
 		\end{itemize}
@@ -154,10 +154,25 @@
 	%%% ------------------------------------------------------------
 	\NewPart{Skills}{}
 	
-	\SkillsEntry{Frontend}{\textsc{TypeScript}, \textsc{React / React Native}, \textsc{Redux}, \textsc{MobX}}
-	\SkillsEntry{Backend}{\textsc{AWS / Terraform}, \textsc{Swift}, \textsc{Golang}, \textsc{MobX}}
-	\SkillsEntry{DevOps}{\textsc{Docker}, \textsc{Kubernetes}, \textsc{Golang}, \textsc{Jenkins}}
-	\SkillsEntry{Mobile}{\textsc{Swift}, \textsc{Core Data}, \textsc{Android SDK}, \textsc{Kotlin}}
+	\SkillsEntry{Frontend}{TypeScript}
+	\SkillsEntry{}{React / React Native}
+	\SkillsEntry{}{Redux}
+	\SkillsEntry{}{MobX}
+
+	\SkillsEntry{Backend}{AWS / Terraform}
+	\SkillsEntry{}{Swift}
+	\SkillsEntry{}{Golang}
+	\SkillsEntry{}{MobX}
+
+	\SkillsEntry{DevOps}{Docker}
+	\SkillsEntry{}{Kubernetes}
+	\SkillsEntry{}{Golang}
+	\SkillsEntry{}{Jenkins}
+
+	\SkillsEntry{Mobile}{Swift}
+	\SkillsEntry{}{Core Data}
+	\SkillsEntry{}{Android SDK}
+	\SkillsEntry{}{Kotlin}
 	
 	%%% References
 	%%% ------------------------------------------------------------
