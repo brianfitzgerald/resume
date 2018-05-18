@@ -11,3 +11,10 @@ type alias Project =
     , description : String
     , technologies : List Technology
     }
+
+
+type alias Work =
+    { title : String
+    , duration : String
+    , description : String
+    }
