@@ -1,8 +1,8 @@
-PWD /Users/brianfitzgerald/personal-site-2018/Resume
+PWD /Users/brianfitzgerald/resume
 INPUT /usr/local/texlive/2017/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/brianfitzgerald/personal-site-2018/Resume/resume.tex
+INPUT /Users/brianfitzgerald/resume/resume.tex
 OUTPUT resume.log
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
