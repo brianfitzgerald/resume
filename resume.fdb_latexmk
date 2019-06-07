@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553725976 "/Users/brianfitzgerald/Projects/resume/resume.tex" "/Users/brianfitzgerald/Projects/resume/resume.pdf" "resume" 1553725977
+["pdflatex"] 1553725976 "/Users/brianfitzgerald/Projects/resume/resume.tex" "/Users/brianfitzgerald/Projects/resume/resume.pdf" "resume" 1559927975
   "/Users/brianfitzgerald/Projects/resume/resume.aux" 1553725977 66 cd029a54a3cffd3e09969911eba4d48c ""
   "/Users/brianfitzgerald/Projects/resume/resume.tex" 1553725976 7869 859822c1bc0b9c94555b24aa1f61c362 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -110,7 +110,7 @@
   "resume.tex" 1553725976 7869 859822c1bc0b9c94555b24aa1f61c362 ""
   (generated)
   "resume.pdf"
-  "resume.aux"
-  "/Users/brianfitzgerald/Projects/resume/resume.log"
   "/Users/brianfitzgerald/Projects/resume/resume.pdf"
   "resume.log"
+  "resume.aux"
+  "/Users/brianfitzgerald/Projects/resume/resume.log"
