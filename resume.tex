@@ -22,17 +22,20 @@
 % http://en.wikibooks.org/wiki/LaTeX
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
+\documentclass[paper=a4,fontsize=9pt]{scrartcl} % KOMA-article class
 							
 	\usepackage[english]{babel}
 	\usepackage[utf8x]{inputenc}
-	\usepackage[protrusion=true,expansion=true]{microtype}
+	\usepackage[protrusion=false,expansion=true]{microtype}
 	\usepackage{amsmath,amsfonts,amsthm}     % Math packages
 	\usepackage{graphicx}                    % Enable pdflatex
 	\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
 	\usepackage{geometry}
-		\textheight=700px                    % Saving trees ;-)
+		\textheight=1400px                    % Saving trees ;-)
 	\usepackage{url}
+	\geometry{
+		top=10mm,
+	}
 	
 	\frenchspacing              % Better looking spacings after periods
 	\pagestyle{empty}           % No pagenumbers/headers/footers
@@ -49,7 +52,7 @@
 	%%% ------------------------------------------------------------
 	\newlength{\spacebox}
 	\settowidth{\spacebox}{8888888888}			% Box to align text
-	\newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
+	\newcommand{\sepspace}{\vspace*{0.8em}}		% Vertical space macro
 	
 	\newcommand{\MyName}[1]{ % Name
 			\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
@@ -66,7 +69,13 @@
 			\parbox{\spacebox}{        % Box to align text
 			\textit{#1}}		       % Entry name (birth, address, etc.)
 			\hspace{1.5em} #2 \par}    % Entry value
-	
+
+	\newcommand{\PersonalStatement}[2]{
+			\noindent\hangindent=0em\hangafter=0 % Indentation
+			\parbox{\spacebox}{        % Box to align text
+			\textit{#1}}		       % Entry name (birth, address, etc.)
+			\hspace{-5.5em} #2 \par}    % Entry value
+
 	\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
 			\noindent\hangindent=2em\hangafter=0 % Indentation
 			\parbox{\spacebox}{        % Box to align text
@@ -102,12 +111,15 @@
 	\MySlogan{Curriculum Vitae}
 	
 	\sepspace
+
+	\PersonalStatement{}{Passionate about building great user experiences and products. Always looking for interesting problems to tackle, and new technologies to learn.}
+
 	
 	%%% Personal details
 	%%% ------------------------------------------------------------
 	\NewPart{Personal details}{}
 	
-	\PersonalEntry{Address}{36 North Cedar Lake Dr East Apt 103}
+	\PersonalEntry{Address}{4 Diego Ct, Apt D, 65203}
 	\PersonalEntry{Phone}{(618) 616-3533}
 	\PersonalEntry{Mail}{\url{brianfitzgerald242@gmail.com}}
 	\PersonalEntry{GitHub}{\url{https://github.com/brianfitzgerald}}
@@ -118,13 +130,11 @@
 	
 	\WorkEntry{Software Engineer}{2016 - present}{CARFAX}{
 		\begin{itemize}
-			\item Led the design and implementation of a queue system for sending hundreds of thousands of emails per day from various myCARFAX products.
-			\item Worked on the rewrite of myCARFAX's core web applications from Angular to React/Redux.
-			\item Created an architecture for one of CARFAX's first user-facing products running on Amazon Web Services. Collaborated on the strategy for migrating CARFAX's on-premises consumer services to an AWS-managed, Kubernetes-based infrastructure.
+			\item Led the design and implementation of a serverless queue system for sending hundreds of thousands of emails per day from various myCARFAX products.
+			\item Developed and executed a strategy to migrate myCARFAX's on-premises consumer and dealer-facign services to an AWS-managed, Kubernetes-based infrastructure.
 			\item Assisted with the design of the myCARFAX Shop Data Gateway, a solution for caching millions of items of Service Shop data and exposing it to other teams and services via a GraphQL API.
 			\item Designed and implemented an automated screenshot testing system to identify and alert for visual regression in CARFAX's consumer and dealer facing products.
 			\item Led the development of the CARFAX Service Shops application, which provides shops with a toolset for managing customer-facing data for their shop and viewing analytics.
-			\item Designed and implemented a package-based frontend architecture for myCARFAX's core products over the span of several project timelines.
 		\end{itemize}
 	}
 	\sepspace
@@ -132,8 +142,15 @@
 	\WorkEntry{Developer}{August 2018 - present}{Healium XR}{
 		\begin{itemize}
 			\item Designed and developed the Healium Garden app, an AR experience that teaches users to regulate their breath and relax through an interactive minigame.
-			\item Worked as a subcontractor to develop the CES demo experience for the MUSE 2 by Interaxon, an AR experience that allows users to try out a virtual version of the headset and explore its features in AR.
-			\item Developed a platform for collecting and displaying analytics data for Healium's various wellness XR experiences, and providing it to users through a dashboard. Involved setting up a user account system and enterprise administration features.
+			\item Worked as a subcontractor to develop the CES demo experience for the MUSE 2 by Interaxon, an AR experience that allows users to try out a virtual version of the headset and explore its features.
+			\item Developed a platform for collecting and displaying analytics data for Healium's various wellness XR experiences, and providing it to users through a dashboard website. Involved setting up a user account system and enterprise administration features.
+		\end{itemize}
+	}
+	\sepspace
+
+	\WorkEntry{Developer}{June 2017 - May 2018}{GeneTrait Laboratories}{
+		\begin{itemize}
+			\item Developed the MedTrait reporting system for GeneTrait. Was involved in the entire product development cycle, including designing features, developing a user experience and visual identity, writing a backend service to generate the reports from genetic testing data, and developing a component library to render the resulting reports.
 		\end{itemize}
 	}
 	\sepspace
@@ -156,33 +173,17 @@
 	
 	%%% Skills
 	%%% ------------------------------------------------------------
-	\NewPart{Skills}{}
+	\NewPart{Skills and Technologies}{}
 	
-	\SkillsEntry{Frontend}{TypeScript}
-	\SkillsEntry{}{React / React Native}
-	\SkillsEntry{}{Redux}
-	\SkillsEntry{}{MobX}
-
-	\SkillsEntry{Backend}{AWS / Terraform}
-	\SkillsEntry{}{Golang}
-
-	\SkillsEntry{DevOps}{Docker}
-	\SkillsEntry{}{Kubernetes}
-	\SkillsEntry{}{Jenkins}
-
-	\SkillsEntry{Mobile}{Swift}
-	\SkillsEntry{}{Android SDK}
-
-	\SkillsEntry{XR}{Unity}
-	\SkillsEntry{}{ShaderLab}
-	\SkillsEntry{}{ARKit}
-	\SkillsEntry{}{ARCore}
-	\SkillsEntry{}{SteamVR}
+	\SkillsEntry{Frontend}{TypeScript, React, Redux, MobX, Webpack}
 	
-	%%% References
-	%%% ------------------------------------------------------------
-	\NewPart{References}{}
-	Available upon request
+	\SkillsEntry{Backend}{Express, Golang, Terraform, Kubernetes, Helm, Jenkins, Docker,}
+	\SkillsEntry{AWS}{SQS, CloudFront / S3, ECS, Lambda, Cognito}
+
+	\SkillsEntry{Mobile}{Swift / iOS, Android SDK, SceneKit}
+
+	\SkillsEntry{XR}{Unity, C\#, ShaderLab, ARKit / ARCore, SteamVR SDK}
+	
 	\end{document}
 	
 	
