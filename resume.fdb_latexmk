@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1565650820 "/Users/brianfitzgerald/Projects/resume/resume.tex" "/Users/brianfitzgerald/Projects/resume/resume.pdf" "resume" 1565650820
-  "/Users/brianfitzgerald/Projects/resume/resume.aux" 1565650820 66 cd029a54a3cffd3e09969911eba4d48c ""
-  "/Users/brianfitzgerald/Projects/resume/resume.tex" 1565650819 8192 6e280f3fea3941d6b8e9fbca14163374 ""
+["pdflatex"] 1565710213 "/Users/brianfitzgerald/Projects/resume/resume.tex" "/Users/brianfitzgerald/Projects/resume/resume.pdf" "resume" 1565710214
+  "/Users/brianfitzgerald/Projects/resume/resume.aux" 1565710214 66 cd029a54a3cffd3e09969911eba4d48c ""
+  "/Users/brianfitzgerald/Projects/resume/resume.tex" 1565710212 7953 167e075b07285317f557d8f710f967cb ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1480098688 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -14,6 +14,7 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1480098698 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1480098698 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1480098698 940 228d6584342e91276bf566bcf9716b83 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1480098701 1332 1fde11373e221473104d6cc5993f046e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1480098701 1328 5442e22a7072966dbaf88ca900acf3f0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1480098701 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1480098701 1524 d89e2d087a9828407a196f428428ef4a ""
@@ -29,6 +30,7 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1480098701 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti9.tfm" 1480098701 1476 cccc6cc4935c18ec3d5623b77ecb8b74 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm" 1480098701 764 c98a2af25c99b73a368cf7336e255190 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1480098733 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1480098733 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1480098733 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1480098733 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
@@ -102,11 +104,11 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "resume.aux" 1565650820 66 cd029a54a3cffd3e09969911eba4d48c ""
-  "resume.tex" 1565650819 8192 6e280f3fea3941d6b8e9fbca14163374 ""
+  "resume.aux" 1565710214 66 cd029a54a3cffd3e09969911eba4d48c ""
+  "resume.tex" 1565710212 7953 167e075b07285317f557d8f710f967cb ""
   (generated)
-  "resume.aux"
   "/Users/brianfitzgerald/Projects/resume/resume.pdf"
   "resume.log"
   "resume.pdf"
   "/Users/brianfitzgerald/Projects/resume/resume.log"
+  "resume.aux"
