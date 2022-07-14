@@ -1,0 +1,34 @@
+Senior Software Engineer, Robotics
+EquipmentShare
+2021 - 2022
+ 
+Developed and maintained a distributed simulation environment for testing and developing autonomous construction equipment, including a highly performant LIDAR simulator and test scenario generator. 
+
+Worked on various computer vision tasks for an autonomous construction system, including filtering and segmentation of LIDAR and image data . Developed a pipeline for the recording and replay of sensor data from the robot, including a real-time visualization system for reviewing detections. 
+
+Designed and implemented a custom video streaming solution intended for low-bandwidth use, streaming video from the robot’s cameras to a remote client, as well as local services. Assisted a team of interns in developing a custom depth estimation and segmentation system for obstacle detection from video data.
+
+Senior Software Engineer, Elogs
+EquipmentShare
+2019 - 2021
+
+Worked on expanding support for the ELD compliance system, which gave real-time alerts for FMCSA guideline violations to thousands of drivers.
+
+Used Flask-REST and SQLAlchemy to create a REST API for the ELD compliance system.
+
+Maintained the React Native and TypeScript - based iOS and Android Elogs app, which served a wide range of mobile devices and trackers. Coordinated with other teams within the company to expand DOT regulation support across multiple products.
+
+Maintained a front-end and API for fleet managers to manage their drivers in React and TypeScript. Worked to overhaul the backend interview process for the engineering organization.
+
+CARFAX
+2016 - 2019
+
+Led the design and implementation of a serverless queue system written in Golang for sending 100,000s of emails per day. Migrated myCARFAX’s on-premises services to an AWS-managed, Kubernetes-based infrastructure. Assisted with the myCARFAX Shop Data Gateway, a solution for caching millions of items in ElastiCache/Redis and exposing them via a GraphQL API. Designed and implemented an automated screenshot testing system to identify and alert for visual regressions using AWS Lambda and image processing. Led the development of the CARFAX Service Shops application, written in React / Node / Typescript, which is used by 1,000s of customers daily.
+
+InteraXon Inc
+February 2018 - January 2019
+Developed the CES demo experience for the MUSE 2 by Interaxon, an AR experience that allows users to try out a virtual version of the headset and explore its features. Built in Unity with ARKit, utilizing face detection and masking. Was later deployed in demo kiosks in California, and integrated into InteraXon’s marketing material.
+
+Healium XR
+September 2018 - February 2019
+Designed and developed several AR experiences for assisting with meditation in Unity with ARKit and ARCore, targeting mobile devices and the Oculus Go headset. Built a dashboard and analytics platform for tracking biometric data. Used AWS Cognito for authentication and Lambda and DynamoDB for the backend.
