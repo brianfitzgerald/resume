@@ -63,7 +63,7 @@
 			\par \normalsize \normalfont}
 	
 	\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
-	
+
 	\newcommand{\PersonalEntry}[2]{
 			\noindent\hangindent=2em\hangafter=0 % Indentation
 			\parbox{\spacebox}{        % Box to align text
@@ -81,7 +81,7 @@
 			\parbox{\spacebox}{        % Box to align text
 			\textit{#1}}			   % Entry name (birth, address, etc.)
 			\hspace{1.5em} #2 \par}    % Entry value	
-			
+
 	\newcommand{\EducationEntry}[4]{
 			\noindent \textbf{#1} \hfill      % Study
 			\colorbox{Black}{%
@@ -90,7 +90,7 @@
 			\noindent \textit{#3} \par        % School
 			\noindent\hangindent=2em\hangafter=0 \small #4 % Description
 			\normalsize \par}
-	
+
 	\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
 			\noindent \textbf{#1} \hfill      % Jobname
 			\colorbox{White}{\color{Black}#2} \par  % Duration
@@ -101,23 +101,17 @@
 	%%% Begin Document
 	%%% ------------------------------------------------------------
 	\begin{document}
-	% you can upload a photo and include it here...
-	%\begin{wrapfigure}{l}{0.5\textwidth}
-	%	\vspace*{-2em}
-	%		\includegraphics[width=0.15\textwidth]{photo}
-	%\end{wrapfigure}
-	
+
 	\MyName{Brian Fitzgerald}
-	
+
 	\sepspace
 
 	\PersonalStatement{}{Software developer passionate about building great user experiences, solving interesting problems, and finding new technologies to learn.}
 
-	
 	%%% Personal details
 	%%% ------------------------------------------------------------
 	\NewPart{Personal details}{}
-	
+
 	\PersonalEntry{Location}{Columbia, MO / Remote}
 	\PersonalEntry{Phone}{(618) 616-3533}
 	\PersonalEntry{Mail}{\url{brianfitzgerald242@gmail.com}}
@@ -127,19 +121,19 @@
 	%%% ------------------------------------------------------------
 	\NewPart{Work experience}{}
 
-	\WorkEntry{Senior Software Engineer, Robotics}{2021 - 2022}{EquipmentShare}{
+	\WorkEntry{Senior Software Engineer, Robotics}{2020 - 2022}{EquipmentShare}{
 		\begin{itemize}
 			\item Developed and maintained a distributed simulation environment for testing and developing autonomous construction equipment, including a highly performant LIDAR simulator and test scenario generator with \textbf{Mujoco} and \textbf{Unity}.
-
 			\item Worked on various computer vision tasks for an autonomous construction system, including filtering and segmentation of LIDAR and image data in \textbf{C++ and Python}.
-			\item Developed a pipeline for the recording and replay of sensor data from the robot, including a real-time visualization system for reviewing detections.
+			\item Wrote and implemented a system for training large scale Computer Vision models based on validation and testing data gathered from the real world and sanitized.
+			\item Developed a pipeline for the recording and replay of sensor data from the robot, including a real-time visualization system for reviewing defects and segmentation results.
 			\item Designed and implemented a custom video streaming solution intended for low-bandwidth use, streaming video from the robot's cameras to a remote client, as well as local services.
-			\item Assisted a team of interns in developing a custom depth estimation and segmentation system for obstacle detection from video data.
+			\item Guided a team of interns in developing a custom depth estimation and segmentation system for obstacle detection from video data.
 		\end{itemize}
 	}
 	\sepspace
 
-	\WorkEntry{Senior Software Engineer, Elogs}{2019 - 2021}{EquipmentShare}{
+	\WorkEntry{Senior Software Engineer, Elogs}{2019 - 2020}{EquipmentShare}{
 		\begin{itemize}
 			\item Worked on expanding support for the ELD compliance system, which gave real-time alerts for FMCSA guideline violations to thousands of drivers.
 			\item Used Flask-REST and SQLAlchemy to create a REST API for the ELD compliance system.
@@ -150,7 +144,7 @@
 		\end{itemize}
 	}
 	\sepspace
-	
+
 	\WorkEntry{Software Engineer}{2016 - 2019}{CARFAX}{
 		\begin{itemize}
 			\item Led the design and implementation of a serverless queue system written in \textbf{Golang} for sending 100,000s of emails per day.
@@ -161,7 +155,7 @@
 		\end{itemize}
 	}
 	\sepspace
-	
+
 	\WorkEntry{Developer}{February 2018 - January 2019}{InteraXon Inc}{
 		\begin{itemize}
 			\item Developed the CES demo experience for the MUSE 2 by Interaxon, an AR experience that allows users to try out a virtual version of the headset and explore its features. Built in \textbf{Unity} with \textbf{ARKit}, utilizing face detection and masking.
@@ -169,7 +163,6 @@
 		\end{itemize}
 	}
 	\sepspace
-
 
 	\WorkEntry{Developer}{September 2018 - February 2019}{Healium XR}{
 		\begin{itemize}
