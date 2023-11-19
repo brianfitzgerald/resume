@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1698200246 "/Users/brian/resume/resume.tex" "resume.pdf" "resume" 1698200246 0
-  "/Users/brian/resume/resume.tex" 1698200245 11497 804d9b75635bd02b1c06c3588bb64eb4 ""
+["pdflatex"] 1700368496 "/Users/brian/resume/resume.tex" "resume.pdf" "resume" 1700368497 0
+  "/Users/brian/resume/resume.tex" 1700368496 11493 ef73861e024618eeab40cc22b9caaad6 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -100,8 +100,8 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698199123 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698199096 7883459 f7a898d1f57e82b4c141ee48a9d38362 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "resume.aux" 1698200246 148 b634744ffd1589d9fb5aa566814a3c8b "pdflatex"
-  "resume.tex" 1698200245 11497 804d9b75635bd02b1c06c3588bb64eb4 ""
+  "resume.aux" 1700368497 148 b634744ffd1589d9fb5aa566814a3c8b "pdflatex"
+  "resume.tex" 1700368496 11493 ef73861e024618eeab40cc22b9caaad6 ""
   (generated)
   "resume.aux"
   "resume.log"
