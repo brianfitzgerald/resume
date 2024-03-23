@@ -112,6 +112,7 @@
 
 	\PersonalEntry{Location}{Columbia, MO / Remote}
 	\PersonalEntry{Phone}{(618) 616-3533}
+	\PersonalEntry{Website}{\url{https://brianfitzgerald.xyz/}}
 	\PersonalEntry{Mail}{\url{brianfitzgerald242@gmail.com}}
 	\PersonalEntry{GitHub}{\url{https://github.com/brianfitzgerald}}
 
@@ -119,12 +120,20 @@
 	%%% ------------------------------------------------------------
 	\NewPart{Work experience}{}
 
-	\WorkEntry{Machine Learning Engineer}{2022 - }{Stability AI}{
+	\WorkEntry{Machine Learning Engineer, Research / Applied}{2023 - }{Stability AI}{
 		\begin{itemize}
-			\item Worked on the fine-tuning API for Stability's Stable Diffusion range of generative image models. Developed an inference, fine-tuning and post-processing stack that led to best-in-class fine-tuning training times, and best-in-industry image fidelity. This API is being trialed with several large enterprise customers.
-			\item Wrote and trained a series of content classifiers to filter out NSFW generations from Stability's image generation APIs. Achieved state-of-the-art inference times with minimal hit to model performance. Developed a system to detect model drift and retrain the model based on user activity patterns.
-			\item Designed and single-handedly wrote Stability for Blender, and maintained Stability for Photoshop, both efforts to integrate Stability's generative image models into professional workflows.
-			\item Worked on Stability's next-generation inference platform, as well as model compilation strategies to bring inference times and memory usage in line with industry standards.
+			\item Trained a sequence-to-sequence model to perform prompt upsampling for Stable Diffusion 3. Achieved best-in-class performance on a model size and inference speed that beats the state-of-the art, while maintaining high image fidelity.
+			\item Trained, deployed and maintained a text classifier for user prompt moderation. This classifier meets industry standards for accuracy on all safety-related categories tested, as well as additional ones specific to generative models.
+			\item Worked on a variety of customer-facing LLM projects related to tool use and conversational AI, including accelerated inference, evaluation. and tuning of models. Worked with researchers to achieve best-in-class safety and accuracy scores for the LLMs.
+			\item Worked on the Stability Fine-Tuning API. Developed an inference, fine-tuning and post-processing stack that led to best-in-class fine-tuning training times, and best-in-industry image fidelity. This API is being trialed with several large enterprise customers.
+		\end{itemize}
+	}
+	\sepspace
+
+	\WorkEntry{Machine Learning Engineer, Inference}{2022 - 2023}{Stability AI}{
+		\begin{itemize}
+			\item Worked on Stability's next-generation text-to-image inference platform, as well as model compilation strategies to bring inference times and memory usage in line with industry standards.
+			\item Designed and wrote Stability for Blender, and maintained Stability for Photoshop, both efforts to integrate Stability's generative image models into professional workflows.
 		\end{itemize}
 	}
 	\sepspace
@@ -207,12 +216,13 @@
 	%%% ------------------------------------------------------------
 	\NewPart{Skills and Technologies}{}
 	
-	\SkillsEntry{Frontend}{TypeScript, React, Redux, MobX, Webpack}
 	
-	\SkillsEntry{Vision}{PCL, Tensorflow, Pytorch, OpenCV, OpenGL, Unity}
+	\SkillsEntry{ML}{PyTorch, Jax, Lightning, CUDA, Slurm, Ray}
+	\SkillsEntry{Vision}{PCL, OpenCV, OpenGL, PhysX, Mujoco}
 	\SkillsEntry{Robotics}{C++, Rust, ZeroMQ, Protobuf, ROS, Waymo Honeycomb}
-	\SkillsEntry{Backend}{Express, Golang, Terraform, Kubernetes, Helm, Jenkins, Docker}
-	\SkillsEntry{AWS}{SQS, CloudFront / S3, ECS, Lambda, Cognito}
+	\SkillsEntry{Frontend}{TypeScript, React, Redux, MobX}
+	\SkillsEntry{Backend}{Golang, Terraform, Kubernetes}
+	\SkillsEntry{AWS}{SQS, CloudFront / S3, ECS, Lambda, Cognito, Cloudflare Workers}
 
 	\SkillsEntry{Mobile}{Swift / iOS, Android SDK, SceneKit}
 
