@@ -122,18 +122,19 @@
 
 	\WorkEntry{Machine Learning Engineer, Research / Applied}{2023 - }{Stability AI}{
 		\begin{itemize}
-			\item Trained a sequence-to-sequence model to perform prompt upsampling for Stable Diffusion 3. Achieved best-in-class performance on a model size and inference speed that beats the state-of-the art, while maintaining high image fidelity.
-			\item Trained, deployed and maintained a text classifier for user prompt moderation. This classifier meets industry standards for accuracy on all safety-related categories tested, as well as additional ones specific to generative models.
-			\item Worked on a variety of customer-facing LLM projects related to tool use and conversational AI, including accelerated inference, evaluation. and tuning of models. Worked with researchers to achieve best-in-class safety and accuracy scores for the LLMs.
-			\item Worked on the Stability Fine-Tuning API. Developed an inference, fine-tuning and post-processing stack that led to best-in-class fine-tuning training times, and best-in-industry image fidelity. This API is being trialed with several large enterprise customers.
+			\item Trained a sequence-to-sequence model to perform prompt upsampling for Stable Diffusion 3, achieving performance in model size and inference speed that beats the state-of-the-art for this use case, while ensuring that the resulting image outputs are inclusive, culturally appropriate, safe, and high-quality.
+			\item Worked on a variety of customer-facing LLM projects related to tool use and conversational AI, including fine-tuning, evaluation, and inference, across a variety of foundation language models. Worked with researchers and engineers across the company to achieve best-in-class safety and accuracy scores for each use case.
+			\item Trained, deployed, and maintained a text classifier for user prompt moderation, and an image classifier for generated content moderation. These classifiers meet industry standards for accuracy on all safety-related categories tested, as well as additional ones specific to generative models.
+			\item Worked on the Stability Fine-Tuning API. Developed an inference, fine-tuning, and post-processing stack that led to best-in-class fine-tuning training times, and best-in-industry output quality. This API is being trialed with several large enterprise customers.
 		\end{itemize}
 	}
 	\sepspace
 
 	\WorkEntry{Machine Learning Engineer, Inference}{2022 - 2023}{Stability AI}{
 		\begin{itemize}
-			\item Worked on Stability's next-generation text-to-image inference platform, as well as model compilation strategies to bring inference times and memory usage in line with industry standards.
-			\item Designed and wrote Stability for Blender, and maintained Stability for Photoshop, both efforts to integrate Stability's generative image models into professional workflows.
+			\item Co-designed and wrote Stability's LLM inference solution, including custom kernels that add support for FlashAttention 2 to Stability's StableLM series of models, as well as other optimizations.
+			\item Worked on Stability's next-generation text-to-image inference platform, as well as model compilation strategies to bring inference times and memory usage in line with industry standards, across a range of accelerators, including TPUs, Gaudi, Inferentia, and Nvidia GPUs.
+			\item Developed prototype integrations for Blender and Photoshop to demonstrate uses of Stable Diffusion and LLMs within creative workflows. Shipped and maintained the Blender integration, which surpassed 50k downloads within 24 hours of its release.
 		\end{itemize}
 	}
 	\sepspace
@@ -142,7 +143,7 @@
 		\begin{itemize}
 			\item Worked on various computer vision tasks for an autonomous construction system, including filtering and segmentation of LIDAR and image data in C++ and Python.
 			\item Developed and maintained a distributed simulation environment for testing and developing autonomous construction equipment, including a highly performant LIDAR simulator and test scenario generator with Mujoco and Unity.
-			\item Wrote and implemented a system for training large scale Computer Vision models based on validation and testing data gathered from real-world testing.
+			\item Wrote and implemented a system for training large-scale object detection models, using training and evaluation data gathered from real-world testing.
 			\item Developed a pipeline for the recording and replay of sensor data from physical machines, including a real-time visualization system for reviewing defects and anomalies in training data.
 			\item Designed and implemented a custom video streaming solution intended for low-bandwidth use, streaming video from the robot's cameras to a remote client, as well as other services on the machine.
 			\item Mentored a team of interns in developing a custom depth estimation and segmentation system for obstacle detection from video data.
@@ -153,9 +154,9 @@
 	\WorkEntry{Senior Software Engineer, Elogs}{2019 - 2020}{EquipmentShare}{
 		\begin{itemize}
 			\item Worked on expanding support for the Elogs ELD compliance system, which gave real-time alerts for FMCSA guideline violations to thousands of drivers. Grew the list of supported state regulations from 2 to 30.
+			\item Maintained a real-time rule engine for processing and alerting on driver logs, which processed millions of logs daily from tens of thousands of active users.
 			\item Maintained the React Native - based iOS and Android Elogs app, which served a wide range of mobile devices and trackers.
 			\item Coordinated with other teams within the company to expand DOT regulation support across multiple products.
-			\item Maintained a front-end and API for fleet managers to manage their drivers in React and TypeScript.
 		\end{itemize}
 	}
 	\sepspace
